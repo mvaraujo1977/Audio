@@ -2,9 +2,8 @@ package br.com.marcelo.modelos;
 
 public class Audio {
     private String titulo;
-
-    private int totalReproducao;
-    private int curtidas;
+    private int totalReproducoes;
+    private int totalCurtidas;
     private int classificacao;
 
     public String getTitulo() {
@@ -15,34 +14,24 @@ public class Audio {
         this.titulo = titulo;
     }
 
-    public int getTotalReproducao() {
-        return totalReproducao;
+    public int getTotalReproducoes() {
+        return totalReproducoes;
     }
 
-    public void setTotalReproducao(int totalReproducao) {
-        this.totalReproducao = totalReproducao;
-    }
-
-    public int getCurtidas() {
-        return curtidas;
-    }
-
-    public void setCurtidas(int curtidas) {
-        this.curtidas = curtidas;
+    public int getTotalCurtidas() {
+        return totalCurtidas;
     }
 
     public int getClassificacao() {
         return classificacao;
     }
 
-    public void setClassificacao(int classificacao) {
-        this.classificacao = classificacao;
-    }
-
     public void curte(){
+        this.totalCurtidas++;
 
     }
     public void reproduzir(){
+        this.totalReproducoes++;
 
     }
 

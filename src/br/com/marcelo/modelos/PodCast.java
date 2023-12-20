@@ -2,16 +2,22 @@ package br.com.marcelo.modelos;
 
 public class PodCast extends Audio{
 
-    private String host;
+    private String apresentador;
     private String descricao;
 
-    public String getHost() {
-        return host;
+    public String getApresentador() {
+        return apresentador;
     }
 
-    public void setHost(String host) {
-        this.host = host;
+    public void setApresentador(String apresentador) {
+        this.apresentador = apresentador;
     }
 
+    public String getDescricao() {
+        return descricao;
+    }
 
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
 }

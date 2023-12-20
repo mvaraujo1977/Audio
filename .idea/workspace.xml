@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62c945e3-20b8-4487-b2d7-3130fd14c9cd" name="Changes" comment="inicio">
-      <change afterPath="$PROJECT_DIR$/src/br/com/marcelo/modelos/MinhasPreferidas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/marcelo/modelos/Musicas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/marcelo/modelos/Musicas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/marcelo/modelos/PodCast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/marcelo/modelos/PodCast.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/marcelo/principal/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/marcelo/principal/Principal.java" afterDir="false" />
-    </list>
+    <list default="true" id="62c945e3-20b8-4487-b2d7-3130fd14c9cd" name="Changes" comment="polimorfismo" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -140,11 +134,20 @@
       <option name="project" value="LOCAL" />
       <updated>1703033256925</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="polimorfismo">
+      <option name="closed" value="true" />
+      <created>1703038274138</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1703038274138</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="inicio" />
-    <option name="LAST_COMMIT_MESSAGE" value="inicio" />
+    <MESSAGE value="polimorfismo" />
+    <option name="LAST_COMMIT_MESSAGE" value="polimorfismo" />
   </component>
 </project>
